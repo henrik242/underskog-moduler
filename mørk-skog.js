@@ -18,8 +18,8 @@
                 'color': 'black',
                 'text-shadow': '0 0 4px #ccc, 0 0 4px #ccc'
             });
-            $('h2').css({
-                'color': 'white'
+            $('h2, h2 a, h3, h3 a').css({
+                'color': '#eee'
             });
             $(".tabbed_menu").css({
                 "background": "black"
