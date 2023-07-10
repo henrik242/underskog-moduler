@@ -1,6 +1,6 @@
 (function ($) {
 
-    // MØRK SKOG™
+    // MYRKSKOG™
     // Foreslå endringer på https://github.com/henrik242/mork-skog
 
     function mørke() {
