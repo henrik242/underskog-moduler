@@ -1,5 +1,3 @@
-// noinspection JSNonASCIINames,NonAsciiCharacters
-
 (function ($) {
 
     // MØRK SKOG™
@@ -15,6 +13,10 @@
             });
             $("a").css({
                 'color': 'lightblue'
+            });
+            $("h1 a").css({
+                'color': 'black',
+                'text-shadow': '0 0 4px #ccc, 0 0 4px #ccc'
             });
             $('h2').css({
                 'color': 'white'
