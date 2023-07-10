@@ -11,8 +11,8 @@
                 'background': 'black',
                 'color': 'white'
             });
-            $("body a").css({
-                'color': 'lightgray'
+            $("a").css({
+                'color': 'lightblue'
             });
             $('.body').css({
                 'background': '#111',
@@ -30,6 +30,10 @@
             });
             $(".user_settings>li .user_settings_text").css({
                 "color": "lightgrey"
+            });
+            $(".dropdown_box, .dropdown_container").css({
+                "background": "#222",
+                "border-color": "darkgrey"
             });
         }
     }
