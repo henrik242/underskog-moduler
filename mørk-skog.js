@@ -24,7 +24,7 @@
             $(".tabbed_menu").css({
                 "background": "black"
             });
-            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block").css({
+            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count").css({
                 "color": "lightgray"
             });
             $(".dropdown_box, .dropdown_container").css({
