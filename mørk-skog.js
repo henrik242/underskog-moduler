@@ -1,3 +1,5 @@
+// noinspection JSNonASCIINames,NonAsciiCharacters
+
 (function ($) {
 
     // MØRK SKOG™
@@ -20,12 +22,18 @@
             $(".tabbed_menu").css({
                 "background": "black"
             });
-            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt").css({
-                "color": "lightgrey"
+            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block").css({
+                "color": "lightgray"
             });
             $(".dropdown_box, .dropdown_container").css({
                 "background": "#222",
-                "border-color": "darkgrey"
+                "border-color": "darkgray"
+            });
+            $(".sale_type").css({
+                "background": "gray",
+            });
+            $(".panel_hide, .panel_move_up, .panel_move_down").css({
+                "opacity": "1.0",
             });
         }
     }
