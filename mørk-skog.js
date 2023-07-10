@@ -27,11 +27,11 @@
             $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count").css({
                 "color": "lightgray"
             });
-            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a").css({
+            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, .message_conversation_item").css({
                 "background": "#222",
                 "border-color": "darkgray"
             });
-            $(".sale_type, .tabs_tab.selected, .current_page").css({
+            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab, .message_conversation_item_selected").css({
                 "background": "gray",
             });
             $(".panel_hide, .panel_move_up, .panel_move_down").css({
@@ -39,6 +39,9 @@
             });
             $(".highlight").css({
                 "color": "black",
+            });
+            $(".user_message").css({
+                "background": "#2f4860",
             });
         }
     }
