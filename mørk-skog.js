@@ -7,20 +7,12 @@
         if (!autoMørke || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             // dark mode
 
-            $('body').css({
+            $('body, .body, .post, .post_context').css({
                 'background': 'black',
                 'color': 'white'
             });
             $("a").css({
                 'color': 'lightblue'
-            });
-            $('.body').css({
-                'background': '#111',
-                'color': 'white'
-            });
-            $('.post').css({
-                'background': 'black',
-                'color': 'white'
             });
             $('h2').css({
                 'color': 'white'
@@ -28,7 +20,7 @@
             $(".tabbed_menu").css({
                 "background": "black"
             });
-            $(".user_settings>li .user_settings_text").css({
+            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt").css({
                 "color": "lightgrey"
             });
             $(".dropdown_box, .dropdown_container").css({
