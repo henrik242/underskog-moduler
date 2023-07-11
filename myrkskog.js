@@ -66,7 +66,7 @@
             $('p a[style*="background: rgb(213, 255, 213)"]').css({
                 "color": "#222"
             });
-            $('.header').css({
+            $('.header, .tabbed_menu').css({
                 "border-bottom": "solid 1px #333"
             });
         }
