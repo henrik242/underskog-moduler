@@ -1,6 +1,6 @@
 # MYRKSKOG™
 
-Installer på https://underskog.no/modul/103_m%C3%B8rk-skog
+Installer på https://underskog.no/modul/103
 
 Test endringer i Chrome-konsoll:
 
