@@ -1,7 +1,7 @@
 (function ($) {
 
     // MYRKSKOG™
-    // Foreslå endringer på https://github.com/henrik242/mork-skog
+    // Foreslå endringer på https://github.com/henrik242/myrkskog
 
     function mørke() {
         if (!autoMørke || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
