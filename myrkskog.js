@@ -43,6 +43,15 @@
             $(".user_message").css({
                 "background": "#2f4860",
             });
+            $(".poll_results, pre").css({
+                "background": "linear-gradient(#333 0px, #111 100px)",
+            });
+            $(".snip_marker").css({
+                "filter": "invert(1)"
+            });
+            $('p a[style*="background: rgb(213, 255, 213)"]').css({
+                "color": "#222"
+            });
         }
     }
 
