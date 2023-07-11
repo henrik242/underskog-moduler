@@ -21,7 +21,7 @@
             $('h1, h2, h2 a, h3, h3 a').css({
                 'color': '#eee'
             });
-            $(".tabbed_menu").css({
+            $(".tabbed_menu, .header").css({
                 "background": "black"
             });
             $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count").css({
@@ -31,7 +31,7 @@
                 "background": "#222",
                 "border-color": "#444"
             });
-            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab").css({
+            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab, .header .tab").css({
                 "background": "#333",
                 "border-color": "#444"
             });
@@ -65,6 +65,9 @@
             });
             $('p a[style*="background: rgb(213, 255, 213)"]').css({
                 "color": "#222"
+            });
+            $('.header').css({
+                "border-bottom": "solid 1px #333"
             });
         }
     }
