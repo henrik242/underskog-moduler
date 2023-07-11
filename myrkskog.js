@@ -11,9 +11,6 @@
                 'background': 'black',
                 'color': 'white'
             });
-            $("a").css({
-                'color': 'lightblue'
-            });
             $("h1 a").css({
                 'color': 'black',
                 'text-shadow': '0 0 4px #ccc, 0 0 4px #ccc'
@@ -24,7 +21,7 @@
             $(".tabbed_menu, .header").css({
                 "background": "black"
             });
-            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count").css({
+            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count, body #menu a").css({
                 "color": "lightgray"
             });
             $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item").css({
@@ -35,7 +32,7 @@
                 "background": "#333",
                 "border-color": "#444"
             });
-           $(".message_conversation_item_selected").css({
+            $(".message_conversation_item_selected").css({
                 "background": "darkgray",
                 "border-color": "#444"
             });
@@ -46,7 +43,7 @@
                 "color": "black",
             });
             $(".user_message").css({
-                "background": "#2f4860",
+                "background": "#0d2640",
             });
             $(".poll_results, pre").css({
                 "background": "linear-gradient(#333 0px, #111 100px)",
@@ -68,6 +65,9 @@
             });
             $('.header, .tabbed_menu').css({
                 "border-bottom": "solid 1px #333"
+            });
+            $('.activity_item_list ul li a.username').css({
+                "color": "lightgray"
             });
         }
     }
