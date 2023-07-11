@@ -18,7 +18,7 @@
                 'color': 'black',
                 'text-shadow': '0 0 4px #ccc, 0 0 4px #ccc'
             });
-            $('h2, h2 a, h3, h3 a').css({
+            $('h1, h2, h2 a, h3, h3 a').css({
                 'color': '#eee'
             });
             $(".tabbed_menu").css({
@@ -27,12 +27,17 @@
             $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count").css({
                 "color": "lightgray"
             });
-            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, .message_conversation_item").css({
+            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item").css({
                 "background": "#222",
-                "border-color": "darkgray"
+                "border-color": "#444"
             });
-            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab, .message_conversation_item_selected").css({
-                "background": "gray",
+            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab").css({
+                "background": "#333",
+                "border-color": "#444"
+            });
+           $(".message_conversation_item_selected").css({
+                "background": "darkgray",
+                "border-color": "#444"
             });
             $(".panel_hide, .panel_move_up, .panel_move_down").css({
                 "opacity": "1.0",
@@ -52,6 +57,11 @@
             });
             $(".snip_marker").css({
                 "filter": "invert(1)"
+            });
+            $('input[type="text"], textarea, #nudge_fetch_circle').css({
+                "background": "#222",
+                "color": "white",
+                "border-color": "#444"
             });
             $('p a[style*="background: rgb(213, 255, 213)"]').css({
                 "color": "#222"
