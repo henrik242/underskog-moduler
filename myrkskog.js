@@ -24,7 +24,7 @@
             $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count, body #menu a").css({
                 "color": "lightgray"
             });
-            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item").css({
+            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item, .form .textile_field .textile_field_uploading, .form .textile_field .textile_field_uploading .textile_field_images, .togglebar").css({
                 "background": "#222",
                 "border-color": "#444"
             });
