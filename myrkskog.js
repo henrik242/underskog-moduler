@@ -7,7 +7,7 @@
         if (!autoMørke || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             // dark mode
 
-            $('body, .body, .post, .post_context').css({
+            $('body').css({
                 'background': 'black',
                 'color': 'white'
             });
@@ -45,6 +45,10 @@
             });
             $(".poll_results, pre").css({
                 "background": "linear-gradient(#333 0px, #111 100px)",
+            });
+            $(".post").css({
+                "color:": "white",
+                "background": "linear-gradient(#222 0px, #060606 100px)",
             });
             $(".snip_marker").css({
                 "filter": "invert(1)"
