@@ -21,10 +21,10 @@
             $(".tabbed_menu, .header").css({
                 "background": "black"
             });
-            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count, body #menu a").css({
+            $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count, body #menu a, body #footer a").css({
                 "color": "lightgray"
             });
-            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item, .form .textile_field .textile_field_uploading, .form .textile_field .textile_field_uploading .textile_field_images, .togglebar").css({
+            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item, .form .textile_field .textile_field_uploading, .form .textile_field .textile_field_uploading .textile_field_images, .togglebar, .search_result_group h4").css({
                 "background": "#222",
                 "border-color": "#444"
             });
@@ -39,7 +39,7 @@
             $(".panel_hide, .panel_move_up, .panel_move_down").css({
                 "opacity": "1.0",
             });
-            $(".highlight").css({
+            $(".highlight, .important").css({
                 "color": "black",
             });
             $(".user_message").css({
