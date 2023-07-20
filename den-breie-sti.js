@@ -1,7 +1,8 @@
 (function ($) {
 
     function brei() {
-        bredde = (!bredde) ? 400 : bredde;
+        bredde = parseInt(bredde);
+        bredde = (isNaN(bredde)) ? 400 : bredde;
         if (window.matchMedia && window.matchMedia('(min-width: 1280px)').matches) {
             $(".wrapper").width((860 + bredde) + "px"); // 860
             $("#centreColumn").width((626 + bredde) + "px"); // 626
