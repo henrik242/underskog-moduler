@@ -24,11 +24,11 @@
             $(".byline, .user_settings_text, .editing_bar, .thread_excerpt, #user_unread_count, .login_count, .activity_item_block, .sidebar, .shout_actions, div, .count, body #menu a, body #footer a").css({
                 "color": "lightgray"
             });
-            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item, .form .textile_field .textile_field_uploading, .form .textile_field .textile_field_uploading .textile_field_images, .togglebar, .search_result_group h4").css({
+            $(".dropdown_box, .dropdown_container, .annotation, #menu, .submenu, .tabs, .page_selector a, .site_search_dropdown, #tip_inbox ul li, .message_conversation_item, .form .textile_field .textile_field_uploading, .form .textile_field .textile_field_uploading .textile_field_images, .togglebar, .search_result_group h4, #conference_selector_list>ul>li, .filter_tabs ul, .selectized_input .selectize-control").css({
                 "background": "#222",
                 "border-color": "#444"
             });
-            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab, .header .tab").css({
+            $(".sale_type, .tabs_tab.selected, .current_page, .current_tab, .header .tab, .filter_tabs ul li.tab.current").css({
                 "background": "#333",
                 "border-color": "#444"
             });
