@@ -1,6 +1,5 @@
-# MYRKSKOG™
-
-Installer på https://underskog.no/modul/103
+* Installer MYRKSKOG™ på https://underskog.no/modul/103
+* Installer Den breie sti på https://underskog.no/modul/104
 
 Test endringer i Chrome-konsoll:
 
