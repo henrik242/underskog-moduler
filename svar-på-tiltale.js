@@ -1,10 +1,5 @@
 (function($) {
 
-  function shouldHideSvarButton() {
-    var commentTextarea = $('#comment_body, textarea[name="comment[body]"], .comment_form textarea');
-    return commentTextarea.length === 0;
-  }
-
   function createSvarButton(commentElement) {
     var $comment = $(commentElement);
 
@@ -90,11 +85,6 @@
   }
 
   function processSvarButtons() {
-    if (shouldHideSvarButton()) {
-      $('.svar_button').hide();
-      return;
-    }
-
     $('.comment[data-object-type="comment"][data-creator-name]').each(function() {
       createSvarButton(this);
     });
