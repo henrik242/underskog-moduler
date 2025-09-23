@@ -88,8 +88,6 @@
     $('.comment[data-object-type="comment"][data-creator-name]').each(function() {
       createSvarButton(this);
     });
-
-    $('.svar_button').show();
   }
 
   Underskog.onPageModification(function() {
