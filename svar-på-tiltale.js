@@ -94,8 +94,4 @@
     processSvarButtons();
   });
 
-  $(document).ready(function() {
-    processSvarButtons();
-  });
-
 })(jQuery);
