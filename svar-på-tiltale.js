@@ -7,7 +7,7 @@
       return;
     }
 
-    var $svarButton = $('<a href="#" class="svar_button" style="color: var(--color_888);">Svar&nbsp;</a>');
+    var $svarButton = $('<span style="margin-left: 4px; border-left: solid 1px var(--color_ccc)"><span class="action"><a href="#" class="svar_button" style="color: var(--color_888); margin-left: 4px;">Svar</a></span></span>');
 
     $svarButton.on('click', function(e) {
       e.preventDefault();
@@ -18,7 +18,7 @@
     if ($byline.length > 0) {
       var $kudosBlock = $byline.find('.kudos_block');
       if ($kudosBlock.length > 0) {
-        $kudosBlock.before('<span style="color: var(--color_888);">&nbsp;|&nbsp;&nbsp;</span>').before($svarButton);
+        $kudosBlock.before($svarButton);
       }
     }
   }
